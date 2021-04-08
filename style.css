@@ -108,9 +108,18 @@ nav ul {
 .container__h1-p h1 {
   font-size: clamp(1.5rem, 1vw + 1.3rem, 2.2rem);
   margin-bottom: 0;
+  text-shadow: 1px 1px 5px burlywood;
 }
 .container__h1-p p {
   margin-bottom: 3em;
 }
-
-
+#joinbox{
+  width: 300px ;
+  height: 120px;
+  border-radius: 15px;
+}
+#createbox{
+  width: 300px;
+  height: 120px;
+  border-radius: 15px;
+}
